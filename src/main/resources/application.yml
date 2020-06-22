@@ -6,3 +6,18 @@ server:
   port: 8081
   servlet:
     context-path: /study
+management:
+  endpoint:
+    shutdown:
+      enabled: true #最特殊的监控端点
+  # health信息 http://localhost:8081/study/actuator/health
+  # info信息 http://localhost:8081/study/actuator/info
+  endpoints:
+    web:
+      exposure:
+        include: "*" #标示打开所有的监控点
+info:
+  app:
+    name: imooc-springboot-study
+    groupId: com.imooc.springboot.study
+    version: 1.0-SNAPSHOT
