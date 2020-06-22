@@ -65,7 +65,7 @@
 
     <!-- maven编译springboot的编译插件 -->
     <build>
-        <finalName>springboot-study</finalName>
+        <finalName>imooc-springboot-study</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

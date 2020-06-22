@@ -1,0 +1,1 @@
+nohup java -jar imooc-springboot-study.jar &
